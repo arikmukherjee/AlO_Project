@@ -1,0 +1,22 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="check">Check sound</button>
+    <button id="Stop">Stop sound</button>
+    <script>
+       const audioContext = new AudioContext();
+       const oscillator = audioContext.createOscillator();
+       oscillator.connect(audioContext.destination);
+       check.addEventListener('click',()=>{
+            oscillator.start();
+        })
+        Stop.addEventListener('click',()=>{
+            oscillator.stop();
+        })
+    </script>
+</body>
+</html>
