@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MY First web site</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <link rel="stylesheet" href="/style/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- sharif link css -->
+  <link rel="stylesheet" href="sharif/sharif.css">
+  <link rel="stylesheet" href="sharif/responsive.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-color">
+      <div class="container">
+        <a class="navbar-brand h1 fw-bold text-white" href="#">Shop Hero</a>
+        <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto mb-2 mb-lg-0 text-center item-costom">
+            <li class="nav-item px-2">
+              <a class="nav-link ic active " aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link ic" href="#">About</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link ic" href="#">Contact US</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link ic" href="#">Contact US</a>
+            </li>
+
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ---------- section 1 -->
+    <section>
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner costom_control">
+          <div class="carousel-item active">
+            <div class="container">
+              <div class="row">
+
+                <div class="col-md-6 d-flex align-items-center">
+                  <div class="text_box">
+                    <h3>Pro.Beyond.</h3>
+                    <h1>IPhone <b>14 Pro</b></h1>
+                    <p>Created to change everything for the better. For everyone</p>
+                    <p class="text-center"><a class="btn  banner-btn" href="">Shop NOW</a>
+
+                  </div>
+                </div>
+                <div class="col-md-6 img_movement ">
+                  <div class="img_box ">
+                    <img class="img-fluid" src="/Images/Iphone Image.png" alt="">
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <div class="row">
+
+                <div class="col-md-6 d-flex align-items-center">
+                  <div class="text_box">
+                    <h3>Pro.Beyond.</h3>
+                    <h1>IPhone <b>14 Pro</b></h1>
+                    <p>Created to change everything for the better. For everyone</p>
+                    <p class="text-center"><a class="btn  banner-btn" href="">Shop NOW</a>
+                  </div>
+                </div>
+                <div class="col-md-6 img_movement">
+                  <div class="img_box ">
+                    <img class="img-fluid img2" src="/Images/371514821_310024025210679_1392940530976118687_n.jpg"
+                      alt="">
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <div class="row">
+
+                <div class="col-md-6 d-flex align-items-center">
+                  <div class="text_box">
+                    <h3>Pro.Beyond.</h3>
+                    <h1>IPhone <b>14 Pro</b></h1>
+                    <p>Created to change everything for the better. For everyone</p>
+                    <p class="text-center"><a class="btn banner-btn" href="">Shop NOW</a>
+                  </div>
+                </div>
+                <div class="col-md-6 img_movement">
+                  <div class="img_box ">
+                    <img class="img-fluid img3" src="/Images/387506904_6659278384168608_6137963426138004322_n.jpg"
+                      alt="">
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
+          <i class="fa-solid fa-chevron-left f_icon"></i>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <i class="fa-solid fa-chevron-right f_icon"></i>
+          <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- -------------- section 2 card -->
+    <section>
+      <div class="container text-center">
+        <div class="row p-3">
+          <div class="col-12 col-md-6">
+            <div class="card mb-3">
+              <div class="row g-0 ">
+                <div class="col-md-4 pt-4">
+                  <img src="/Images/ipad.png" class="img-fluid rounded-start" alt="ipad" />
+                </div>
+                <div class="col-12 col-md-8 mb-0">
+                  <div class="card-body">
+                    <h5 class="card-title">Ipad 9</h5>
+                    <p class="card-text h6">
+                      Designed for the large Multi‑Touch display, iPadOS is
+                      powerful and easy to use. iPadOS pushes the capabilities
+                      of iPad further with more discoverable multitasking, new
+                      ways to find and organize information, and enhanced
+                      note‑taking.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card mb-3" style=" background-color: #adc2d7">
+              <div class="row g-0  ">
+                <div class="col-12 col-md-4 pt-4">
+                  <img src="/Images/head.png" class="img-fluid rounded-start" alt="ipad" />
+                </div>
+                <div class="col-md-8 ">
+                  <div class="card-body ">
+                    <h5 class="card-title">Apple AirPods <b> Max</b></h5>
+                    <p class="card-text h6">
+                      AirPods Max inherit all of the wireless, effortless magic
+                      of the AirPods family. From setup to Siri commands, they
+                      make the listening experience completely fluid — day to
+                      day, device to device.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6">
+            <div class="card mb-3 border-0">
+              <div class="row costom_row_div">
+                <div class="col-md-6 d-flex align-items-center">
+                  <div class="card-body">
+                    <h5 class="card-title">Macbook<br /><b>Air</b></h5>
+                    <p class="card-text h6">
+                      Strikingly thin and fast so you can work, play, or create
+                      anywhere
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <img src="/Images/Group 6.png" class="img-fluid rounded-start" alt="ipad"
+                    style="width: 650px; height: 430px" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ------------------ section 3  -->
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-lg-2 mb-2">
+            <div class="card icon" style="background-color: #ededed;">
+              <i class="fa-solid fa-mobile-screen-button text-center"></i>
+              <div class="card-body">
+                <h5 class="card-title size_text">Phones</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-lg-2 mb-2">
+            <div class="card icon" style="background-color: #ededed;">
+              <i class="fa-solid fa-swatchbook"></i>
+              <div class="card-body">
+                <h5 class="card-title size_text">Smart Watches</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-lg-2 mb-2">
+            <div class="card icon" style="background-color: #ededed;">
+              <i class="fa-solid fa-camera"></i>
+              <div class="card-body">
+                <h5 class="card-title size_text">Cameras</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-lg-2 mb-2">
+            <div class="card icon" style="background-color: #ededed;">
+              <i class="fa-solid fa-headphones"></i>
+              <div class="card-body">
+                <h5 class="card-title size_text">Headphones</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-lg-2 mb-2">
+            <div class="card icon" style="background-color: #ededed;">
+              <i class="fa-solid fa-display"></i>
+              <div class="card-body">
+                <h5 class="card-title size_text">Computers</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-lg-2 mb-2">
+            <div class="card icon" style="background-color: #ededed;">
+              <i class="fa-solid fa-gamepad"></i>
+              <div class="card-body">
+                <h5 class="card-title size_text">Gaming</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ----------------------- section 4 -->
+    <section>
+      <div class="container">
+        <div class="row py-3">
+          <div class="col-12">
+            <div class="d-flex justify-content-between">
+              <h3>Browse By Category</h3>
+              <span><i class="fa-solid fa-chevron-left"></i>
+                <i class="fa-solid fa-chevron-right"></i></span>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="row">
+              <div class="col-md-4 col-lg-3">
+                <div class="card h-100 mb-3">
+                  <i class="fa-regular fa-heart text-end fa-3x"></i>
+                  <img src="/Images/Iphone 14 pro 1-2.png" class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <h5 class="card-title">I Phone 14 Pro Max</h5>
+                    <p class="card-text h6">
+                      This is a wider card with supporting text below as a natural
+                      lead-in to additional content. This content is a little bit
+                      longer.
+
+                    </p>
+                    <h3 class="price"><b>$900</b></h3>
+                    <p class="text-center"><a class="btn btn-sell" href="">Buy NOW</a>
+                  </div>
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-4 col-lg-3">
+                <div class="card h-100 mb-3">
+                  <i class="fa-regular fa-heart text-end fa-3x"></i>
+                  <img src="/Images/Iphone 14 pro 1-3.png" class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <h5 class="card-title">Sony Cammera</h5>
+                    <p class="card-text h6">
+                      This card has supporting text below as a natural lead-in to
+                      additional content.
+
+                    </p>
+                    <h3 class="price"><b>$2350</b></h3>
+                    <p class="text-center"><a class="btn btn-sell" href="">Buy NOW</a>
+                  </div>
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-4 col-lg-3">
+                <div class="card h-100 mb-3">
+                  <i class="fa-solid fa-heart text-end fa-3x" style="color: red"></i>
+                  <img src="/Images/Iphone 14 pro 1-1.png" class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <h5 class="card-title">Smart Watch</h5>
+                    <p class="card-text h6">
+                      This is a wider card with supporting text below as a natural
+                      lead-in to additional content. This card has even longer content
+                      than the first to show that equal height action.
+                    </p>
+                    <h3 class="price"><b>$9000</b></h3>
+                    <p class="text-center"><a class="btn btn-sell" href="">Buy NOW</a>
+                  </div>
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-4 col-lg-3">
+                <div class="card h-100 mb-3 mt-3 mt-lg-0">
+                  <i class="fa-regular fa-heart text-end fa-3x"></i>
+                  <img src="/Images/hero__gnfk5g59t0qe_xlarge_2x 1.png" class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <h5 class="card-title">AirBuds pro</h5>
+                    <p class="card-text h6">
+                      Active noise cancellation for immersive sound
+                      Transparency mode for hearing and connecting with the world around you
+                      Three sizes of soft, tapered silicone tips for a customizable fit
+                      Sweat and water resistant
+                      Adaptive EQ automatically tunes music to the shape of your ear
+                      Easy setup for all your Apple devices
+
+                    </p>
+                    <h3 class="price"><b>$549</b></h3>
+                    <p class="text-center"><a class="btn btn-sell" href="">Buy NOW</a>
+                  </div>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ---------------------------  section 5 -->
+    <section class="section-item py-5">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-12 col-md-4">
+            <div class="last_img">
+              <img class="img-fluid sell-left" src="/Images/image 19.png" alt="" />
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <h1><span class="sale">11.11</span> Sale</h1>
+            <p>
+              Bring home the iPhone 14 today in easy monthly installments!
+              Choose from any of our flexible installment options and make
+              that Apple dream a reality.
+            </p>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="last_img last_img2">
+              <img class="img-fluid sell-right" src="/Images/tap.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-3">
+          <div class="footer-logo">
+            <img class="img-fluid" src="/Images/Group 2.png" alt="" />
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-3">
+          <div class="social-icon">
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-tiktok"></i>
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-3">
+          <ol class="footer-list">
+            <li><a href="#" class="footer-title">Services</a></li>
+
+            <li><a href="#">Find an order</a></li>
+            <li><a href="#">Terms of delivery</a></li>
+            <li><a href="#">Exchange and return of goods</a></li>
+            <li><a href="#">Guarantee</a></li>
+            <li><a href="#">Frequently asked questions</a></li>
+            <li><a href="#">Terms of use of the site</a></li>
+          </ol>
+        </div>
+        <div class="col-sm-12 col-md-3">
+          <ol class="footer-list">
+            <li>
+              <a href="#" class="footer-title"> Assistance to the buyer</a>
+            </li>
+            <li><a href="#">Find an order</a></li>
+            <li><a href="#">Terms of delivery</a></li>
+            <li><a href="#">Exchange and return of goods</a></li>
+            <li><a href="#">Guarantee</a></li>
+            <li><a href="#">Frequently asked questions</a></li>
+            <li><a href="#">Terms of use of the site</a></li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/62590586e0.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

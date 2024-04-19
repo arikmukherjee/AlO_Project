@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--body-color);
+}
+
+:root {
+    --body-color: #c5e4e2;
+    --color: #3e2290;
+    --header-color: #13063c;
+    --box-color: #f0f1f8;
+    --placeholder-color: #7d8eb8;
+    --left-text-color: #afafb6;
+    --right-text-color: #37373a;
+    --button-hover-color: #5029bc;
+    --container-body-color: #fff;
+
+    --border: .0625rem solid;
+}
+
+/* --- container --- */
+.container {
+    /* border: var(--border); */
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--container-body-color);
+    padding: 4.6296vh 1.1979vw;
+    border-radius: .625rem;
+    box-shadow: 0 0 1.4375rem 0rem rgba(0, 0, 0, 0.3);
+}
+
+/* --- left side --- */
+
+.left-side {
+    position: relative;
+}
+
+.left-side::before {
+    content: '';
+    background-color: var(--left-text-color);
+    position: absolute;
+    height: 21vw;
+    width: 0.1042vw;
+    left: 108%;
+    top: 0;
+}
+
+.left-side .box {
+    text-align: center;
+    margin-bottom: 2.3148vh;
+}
+
+
+
+.left-side .box .icon i {
+    font-size: 1.5625vw;
+    color: var(--color);
+}
+
+.left-side .box div:nth-child(2) {
+    color: var(--header-color);
+    font-size: 1.1458vw;
+    font-weight: bolder;
+    padding: 0.4630vh 0;
+    text-transform: capitalize;
+}
+
+.left-side .box div:nth-child(2)~div {
+    font-size: 0.9375vw;
+    color: var(--left-text-color);
+}
+
+
+/* --- right side --- */
+
+.right-side .title h1 {
+    color: var(--color);
+}
+
+.right-side .title p {
+    color: var(--right-text-color);
+    padding: 0.2778vh 0 0.9259vh 0;
+}
+
+.right-side {
+    /* border: .0625rem solid red; */
+    width: 73%;
+    margin: auto;
+}
+
+.right-side form .input {
+    width: 100%;
+    height: 4.5vh;
+    margin-bottom: 0.9259vh;
+}
+
+.right-side form .input input {
+    width: 100%;
+    height: 100%;
+    font-size: 0.8333vw;
+}
+
+.right-side form .input input,
+.right-side .text-area textarea {
+    background-color: var(--box-color);
+    border-radius: .375rem;
+    border: .0625rem solid var(--right-text-color);
+    padding: 0.5556vh 0.4167vw;
+    outline: none;
+}
+
+.right-side form .input input:focus,
+.right-side .text-area textarea:focus {
+    border: .0625rem solid green;
+}
+
+.right-side .text-area {
+    height: 14.8148vh;
+}
+
+.right-side .text-area textarea {
+    width: 100%;
+    height: 100%;
+    resize: none;
+    font-size: 0.8333vw;
+}
+
+.right-side input[type='button'] {
+    font-size: 1.0417vw;
+    padding: 0.5208vw;
+    margin: 1.1111vh 0;
+    border-radius: .4375rem;
+    border: .0625rem solid;
+    transition: all 0.5s;
+    background-color: var(--button-hover-color);
+    color: var(--container-body-color);
+}
+
+.right-side input[type='button']:hover {
+    transform: translateY(-0.125rem);
+    background-color: #3a1a91;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1900px) {
+    body {
+        background-color: red;
+    }
+
+    .left-side {
+        display: flex;
+        flex-direction: column;
+        gap: 2.7778vh;
+    }
+
+    .left-side::before {
+        height: 25vw;
+    }
+}
+
+@media (max-width: 1550px) {
+    body {
+        background-color: rgb(0, 255, 21);
+    }
+
+    .left-side {
+        gap: 5vh;
+    }
+
+
+    .left-side::before {
+        height: 30vw;
+    }
+}
+
+@media (max-width: 1350px) {
+    body {
+        background-color: rgb(17, 167, 29);
+    }
+
+    .left-side {
+        gap: 6vh;
+    }
+
+
+    .left-side::before {
+        height: 33vw;
+    }
+}
+
+
+@media (max-width: 1155px) {
+    body {
+        background-color: rgb(0, 16, 238);
+    }
+
+    .container {
+        flex-direction: column-reverse;
+    }
+
+    .left-side {
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 0;
+    }
+
+
+    .left-side::before {
+        display: none;
+    }
+
+    .right-side {
+        width: 98%;
+    }
+
+}
+
+@media (max-width: 600px) {
+    body {
+        background-color: rgb(226, 231, 145);
+    }
+
+    .container {
+        width: 90%;
+    }
+
+
+}

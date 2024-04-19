@@ -1,0 +1,110 @@
+.bg-body-color {
+  color: #fff;
+  background-color: #1a187a;
+}
+
+.nav-item .nav-link {
+  color: white;
+}
+.shop-now {
+  background-color: #171495;
+  color: #fff;
+}
+#carouselExample {
+  background: linear-gradient(60deg, white, #fcd3fa, #89a7f8);
+}
+/* .silde-img {
+  width: 406px;
+  height: 998px;
+  margin-bottom: -80%;
+  margin-top: 50px;
+} */
+.icon {
+  background-color: #ededed;
+  padding-top: 26px;
+  text-align: center;
+}
+
+.icon i {
+  background-color: #ededed;
+  font-size: 35px;
+  text-align: center;
+}
+
+/* .sell-left {
+  margin-left: -500px;
+}
+
+.sell-right {
+  margin-right: -500px;
+} */
+
+.sale {
+  color: #25177b;
+  font-weight: 700;
+}
+
+.section-item {
+  background-color: #958ad4;
+}
+.social-icon i {
+  color: white;
+  margin-right: 20px;
+  font-size: 34px;
+}
+footer {
+  background-color: #0e071b;
+  padding: 50px 0;
+}
+.footer-list {
+  list-style: none;
+}
+.footer-list li a {
+  text-decoration: none;
+  color: #cfcfcf;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
+}
+
+.btn-sell {
+  background-color: #000;
+  color: white;
+}
+.banner-btn {
+  background-color: #25177b;
+  color: white;
+  margin-right: 200px;
+  display: inline-flex;
+  padding: 16px 56px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+} 
+.btn-sell:hover {
+  background-color: blue;
+}
+.price {
+  color: #000;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.72px;
+}
+/* @media only screen and (max-width: 600px) {
+  .sell-left {
+    margin-left: 20px;
+    width: 80%;
+    height: 80%;
+  }
+  .sell-right {
+    margin-right: -200px;
+    width: 80%;
+    height: 80%;
+  }
+} */
