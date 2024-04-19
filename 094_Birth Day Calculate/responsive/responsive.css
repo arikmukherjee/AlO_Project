@@ -1,0 +1,65 @@
+@media only screen and (min-width: 768px) {
+    .box {
+        background-color: rgba(12, 0, 0, 10%);
+    }
+    
+    .container {
+        flex-direction: column;
+    }
+
+    .input-content {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        gap: 1rem;
+    }
+
+    input {
+        width: 150px;
+        padding: 6px 0;
+        background: rgb(243 223 223 / 90%);
+    }
+
+    .cd-area h1 {
+        font-size: 3rem;
+    }
+
+    .cd-area h2 {
+        font-size: 4vw;
+        margin: 5% 0 2% 0;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .container {
+        flex-direction: row;
+        padding-top: 10%;
+    }
+
+    .input-content {
+        gap: 0.5rem;
+        padding: 0 10px;
+    }
+
+    input {
+        width: 140px;
+    }
+    
+    .cd-area h2 {
+        font-size: 2rem;
+    }
+
+    .cd-area h1 {
+        font-size: 3rem;
+    }
+
+    
+}
+
+@media only screen and (min-width: 1440px) {
+    .cd-area h1 {
+        font-size: 3.5rem;
+    }
+
+
+}

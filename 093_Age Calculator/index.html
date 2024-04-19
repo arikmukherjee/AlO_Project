@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive/responsive.css">
+    <!-- fav-icon -->
+    <link rel="shortcut icon" href="fav/favicon-32x32.png" type="image/x-icon">
+    <!-- javascripts -->
+    <script src="app.js" defer></script>
+    <!-- font-awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>Age Calculator</h1>
+        <small>Implementation by <span>Arik Mukherjee</span> | Date(18-04-2024) </small>
+        <div class="input-area">
+            <div class="TD-content">
+                <h3>Today's Date</h3>
+                <input type="date" name="Today" id="today-InputDate">
+            </div>
+            <div class="DOB-content">
+                <h3>Date of Birth</h3>
+                <input type="date" name="DOB" id="DOB-InputDate">
+            </div>
+            <div class="btn-content">
+                <button type="button" id="calculation">
+                    <span>CALCULATION</span>
+                    <i class="fa-solid fa-calculator fa-fade"></i>
+                </button>
+                <button type="button" id="all-clear">
+                    <span>CLEAR</span>
+                    <i class="fa-solid fa-broom fa-flip"></i>
+                </button>
+            </div>
+        </div>
+        <div class="output-area">
+            <div class="age-content">
+                <div class="your-DOB">
+                    <h4>Your exact date of birth</h4>
+                    <div>
+                        <span>------</span>
+                        <span>-----</span>
+                        <span>---</span>
+                        <span>-------</span>
+                    </div>
+                </div>
+                <div class="your-age">
+                    <h4>your age is</h4>
+                    <div>
+                        <span>- ----</span>
+                        <span>- ----</span>
+                        <span>- ----</span>
+                    </div>
+                </div>
+            </div>
+            <div class="more-details">
+                <h1>You are Alive</h1>
+                <ul>
+                    <li>
+                        <span>In Years</span>
+                        <span><span  class="num">--</span> ----</span>
+                    </li>
+                    <li>
+                        <span>In Months</span>
+                        <span><span  class="num">--</span> ----</span>
+                    </li>
+                    <li>
+                        <span>In Weeks</span>
+                        <span><span  class="num">--</span> ----</span>
+                    </li>
+                    <li>
+                        <span>In Days</span>
+                        <span><span  class="num">--</span> ----</span>
+                    </li>
+                    <li>
+                        <span>In Hours</span>
+                        <span><span  class="num">--</span> ----</span>
+                    </li>
+                    <li>
+                        <span>In Minutes</span>
+                        <span><span  class="num">--</span> ----</span>
+                    </li>
+                    <li>
+                        <span>In Seconds</span>
+                        <span><span  class="num">--</span> ----</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="next-birthday">
+                <h1>
+                    <span class="num-last">--</span> days after your birthday <span><i class="fa-solid fa-cake-candles"></i></span>
+                </h1>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

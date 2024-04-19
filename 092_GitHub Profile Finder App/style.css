@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(0, 255, 242);
+}
+
+.container {
+    /* border: 1px solid; */
+    width: 98%;
+    margin: 5% auto;
+}
+
+.search-div-content {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.search-div-content input {
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid;
+    background: #9cab9554;
+    display: block;
+    width: 92%;
+    margin: 6px auto;
+}
+
+.search-div-content #search_btn {
+    background: #02db00;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    box-shadow: 0 2px 2px 0 black;
+    transition: all 0.2s linear;
+}
+
+.search-div-content #search {
+    background-color: white;
+}
+
+.search-div-content #search_btn:active {
+    box-shadow: 0 0px 0px 0 black;
+    transform: translateY(1px);
+}
+
+
+.output_container {
+    padding: 10px;
+}
+
+.box {
+    box-shadow: 0 0 10px 1px black;
+    padding-bottom: 16px;
+    border-radius: 8px;
+    position: relative;
+    background-color: white;
+}
+
+.box .visit {
+        position: relative;
+        position: absolute;
+        right: 25px;
+        top: 110px;
+        text-decoration: none;
+        border: 1px solid;
+        padding: 5px 18px;
+        border-radius: 10px;
+        background: #0d1117;
+        color: #fff;
+        box-shadow: 1px 2px 2px 0 #00ff08;
+        font-size: 10px;
+}
+
+.box .img-content {
+    background: #0d1117;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px 8px 0 0;
+}
+
+.box .img-content div {
+    width: 8rem;
+    height: 8rem;
+    /* border: 1px solid green; */
+    margin-top: 90px;
+}
+
+.box .img-content img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.box .name {
+    margin: 20% 0 2% 0;
+}
+
+.box .name h1 {
+    text-align: center;
+    border-bottom: 1px solid #8080805c;
+}
+
+.box .bio {
+    background: #e5e5e5;
+    padding: 15px 20px;
+    margin-bottom: 5%;
+    border-radius: 5px;
+    word-wrap: break-word;
+}
+
+.box .ffr {
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.box .ffr a {
+    text-decoration: none;
+    background: #0d1117;
+    color: white;
+    padding: 7px 7px;
+    border-radius: 5px;
+    font-size: 13px;
+}
+
+
+.box .repo span {
+    background: #0d1117;
+    color: white;
+    padding: 6px 9px;
+    text-transform: capitalize;
+    border-radius: 6px;
+}
+
+.box .repo span:nth-child(2) {
+    margin: 0 7px;
+}
