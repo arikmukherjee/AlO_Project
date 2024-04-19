@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tap Baby Tap</title>
+<style>
+    #game-container {
+         position: relative;
+         width: 400px; 
+         height: 400px; 
+         border: 2px solid #333; 
+         margin: 5px;
+         overflow: hidden;
+         }
+    .circle {
+        position: absolute; 
+        width: 50px; 
+        height: 50px; 
+        background-color: red; 
+        border-radius: 50%; 
+        cursor: pointer; 
+        }
+</style>
+</head>
+<body>
+<h1>Tap Baby Tap👉</h1>
+<div id="game-container"></div><br>
+<button id="start">Start</button>
+<p id="score" style="font-size: 24px;">Score: 0</p>
+
+<script>
+const gameContainer = document.getElementById('game-container');
+let score = 0;
+
+function createCircle() {
+    const circle = document.createElement('div');
+    circle.classList.add('circle');
+    circle.style.left = 
+    Math.random() * (gameContainer.offsetWidth - 50) + 'px';
+
+    circle.style.top = 
+    Math.random() * (gameContainer.offsetHeight - 50) + 'px';
+    
+    gameContainer.appendChild(circle);
+
+    circle.addEventListener('click', () => {
+        score++;
+        updateScore();
+        gameContainer.removeChild(circle);
+    });
+
+    setTimeout(() => gameContainer.removeChild(circle), 800);
+    }
+
+function updateScore() {
+    document.getElementById('score').textContent = 'Score: ' + score;
+    }
+start.addEventListener('click',()=>{
+    setInterval(createCircle, 500);
+})
+    updateScore();
+</script>
+
+
+</body>
+</html>
