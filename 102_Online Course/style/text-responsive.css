@@ -1,0 +1,131 @@
+@media only screen and (max-width: 1200px) {
+    .banner-content .text-area h1 {
+        font-size: 4rem;
+    }
+}
+
+
+
+@media only screen and (max-width: 992px) {
+    .banner-content .text-area h1 {
+        font-size: 3rem;
+    }
+
+    .off-header {
+        background-color: #c8b3ff;
+    }
+
+    .off-body {
+        background-color: #54169E;;
+    }
+
+    .costom-ul {
+        text-align: center;
+    }
+
+    .costom-ul li {
+        border-radius: 5px;
+    }
+    
+    .costom-ul li:hover {
+          background-color: #9b03cd;
+    }
+    
+}
+
+@media only screen and (max-width: 768px) {
+    .banner-content .text-area h1 {
+        font-size: 2.25rem;
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+    .banner-content .text-area h1 {
+        font-size: 2.15rem;
+    }
+}
+
+@media only screen and (max-width: 490px) {
+    .banner-content .text-area h1 {
+        font-size: 2.125rem;
+    }
+
+    .banner-content .text-area h5 {
+        font-size: 1.0625rem;
+    }
+}
+
+@media only screen and (max-width: 478px) {
+    .banner-content .text-area h1 {
+        font-size: 2rem;
+    }
+
+    .banner-content .text-area h5 {
+        font-size: 1.0625rem;
+    }
+}
+
+@media only screen and (max-width: 457px) {
+    .banner-content .text-area h1 {
+        font-size: 1.9375rem;
+    }
+
+    .banner-content .text-area h5 {
+        font-size: 1.0625rem;
+    }
+}
+
+@media only screen and (max-width: 455px) {
+    .banner-content .text-area h1 {
+        font-size: 1.6875rem;
+    }
+    
+    .banner-content .btn-area button{
+        display: block ;
+        width: 100%;
+        margin-bottom: .375rem;        
+    }
+}
+
+@media only screen and (max-width: 404px) {
+    .banner-content .text-area h1 {
+        font-size: 1.5rem;
+    }
+    
+    .banner-content .text-area h5 {
+        font-size: .9rem;
+    }
+}
+
+@media only screen and (max-width: 372px) {
+    .banner-content .text-area h1 {
+        font-size: 1rem;
+    }
+    
+    .banner-content .text-area h5 {
+        font-size: .6rem;
+    }
+}
+
+@media only screen and (max-width: 372px) {
+    .banner-content .btn-area button {
+        font-size: .625rem;
+    }
+}
+
+@media only screen and (max-width: 288px) {
+    .banner-content .text-area h1 {
+        font-size: .8rem;
+    }
+    
+    .banner-content .text-area h5 {
+        font-size: .5rem;
+    }
+
+    .banner-content .btn-area button{
+        font-size: .625rem;
+    }
+    
+    
+}

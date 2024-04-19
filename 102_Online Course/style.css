@@ -1,0 +1,126 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    /* font-family: 'Handlee', cursive; */
+    font-family: 'Montserrat', sans-serif;
+    background-color: #d3d2d7;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.hr-style {
+    border: .3125rem dotted black;
+    border-bottom: 0;
+}
+
+.icon-style {
+    font-size: 3.125rem;
+    padding: .9375rem;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.box-hover {
+    transition: all 0.5s ease-in-out;
+}
+
+.box-hover:hover {
+    transform: scale(1.1) translate(-0.25rem , -0.3125rem);
+    box-shadow: .4375rem .25rem 1.25rem 0rem black;
+}
+
+header {
+    background-image: url('bg/bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+nav {
+    background-color: #00000075;
+}
+
+.sch {
+    background: #9c82ff;    
+}
+
+.sch:active {
+    background: white;
+
+}
+
+.navbar .img-logo {
+    width: 4.375rem;
+    height: auto;    
+}
+
+.banner {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-content {
+    background-color: #0000009c;
+}
+
+main {
+    background-color: #280994;
+}
+
+/* ------ > Features */
+#features {
+    padding: 5% 10%;
+
+}
+
+.box-bg {
+    background-color: #33059B;
+}
+
+.box-bg h5 {
+    border-bottom: .0625rem solid;
+    padding-bottom: .625rem;
+}
+
+/* ------ > about */
+#about {
+    padding: 5% 10%;
+
+}
+
+/* ------ > tutorial */
+#tutorial {
+    padding: 5% 10%;
+}
+
+/* ------ > tutorial */
+#feedback {
+    padding: 5% 10%;
+
+}
+
+.padding {
+    padding: 2% 10%;
+}
+
+/* ------ > contract */
+#contact {
+    padding: 5% 10%;
+}
+
+.bg-color-costom {
+    background-image: linear-gradient(to right top, #ffffff, #e5e5e5, #cccccc, #b3b3b3, #9b9b9b);
+}
