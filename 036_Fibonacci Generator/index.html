@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fibonacci Generator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+
+        input, button {
+            padding: 10px;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Fibonacci Generator</h1>
+
+    <label for="termInput">Enter the number of terms:</label>
+    <input type="number" id="termInput" min="1" placeholder="Enter a number">
+
+    <button onclick="generateFibonacci()">Generate Fibonacci</button>
+
+    <div id="output"></div>
+
+    <script>
+        function generateFibonacci() {
+            var n = parseInt(document.getElementById("termInput").value);
+
+            if (!isNaN(n)) {
+                document.getElementById("output").innerHTML = "<p>Fibonacci Series up to " + n + " terms:</p>";
+                fibonacci(n);
+            } else {
+                document.getElementById("output").innerHTML = "<p>Invalid input. Please enter a valid integer.</p>";
+            }
+        }
+
+        function fibonacci(n) {
+            var first = 0, second = 1, next;
+            var result = "";
+
+            for (var i = 0; i < n; i++) {
+                if (i <= 1)
+                    next = i;
+                else {
+                    next = first + second;
+                    first = second;
+                    second = next;
+                }
+                result += next + " ";
+            }
+
+            document.getElementById("output").innerHTML += "<p>" + result + "</p>";
+        }
+    </script>
+
+</body>
+</html>
