@@ -1,0 +1,223 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* -------------- container box style start -------------- */
+body {
+    font-family: sans-serif;
+    background-color: #00ffc6;
+}
+
+.container {
+    margin: 5% 0;
+}
+
+.box {
+    border: 1px solid;
+    width: 80vw;
+    min-height: 80vh;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 13px 0 black;
+    background: white;
+}
+
+.header {
+    background: yellow;
+    height: 66px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 1px 10px 0 black;
+    justify-content: space-between;
+    padding: 0 16px;
+}
+
+.header h1 {
+    text-transform: capitalize;
+}
+
+/* -------------- container box style end -------------- */
+
+
+/* --------- hover button style start ----------- */
+
+
+
+.hover-btn {
+    position: relative;
+    width: 8rem;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.circle {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    background: #1e1e1e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s linear;
+    border-radius: 100px;
+
+}
+
+.hover-btn:hover .circle {
+    width: 100%;
+}
+
+.circle .arrow {
+    width: 10px;
+    height: 10px;
+    border: 2px solid white;
+    border-left: 0;
+    border-bottom: 0;
+    transform: rotate(45deg);
+    position: absolute;
+    left: 8px;
+    transition: all 0.3s linear;
+}
+
+.hover-btn:hover .circle .arrow {
+    left: 20px;
+}
+
+
+.circle .arrow::after {
+    content: '';
+    height: 2px;
+    width: 15px;
+    position: absolute;
+    background: white;
+    transform-origin: right;
+    transform: rotate(-45deg) translate(-6px, -8.5px) scale(0);
+    transition: inherit;
+
+}
+
+.hover-btn:hover .circle .arrow::after {
+    transform: rotate(-45deg) translate(-6px, -8.5px) scale(1);
+}
+
+.text {
+    position: absolute;
+    right: 0;
+    top: 0;
+    left: 0;
+    margin-left: 1rem;
+    padding: 8px 0px;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: all 1s ease-out;
+}
+
+.hover-btn:hover .text {
+    color: white;
+}
+
+/* --------- hover button style end ----------- */
+
+/* ------------- note style start ----------------- */
+.note {
+    display: grid;
+    margin: 1%;
+    grid-gap: 10px;
+    position: relative;
+}
+
+.note .oparation {
+    max-width: 360px;
+    max-height: 300px;
+    min-height: 300px;
+    background-color: #d5d57f; 
+
+    overflow-y: auto;
+}
+
+.oparation .button-content {
+    background-color: #3f4137;
+    border: 1px solid;
+    text-align: end;
+    padding: 7px 7px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.oparation .button-content .edit.btn-icon {
+    border: 1.5px solid #04a904;
+    color: #04a904;
+}
+
+.oparation .button-content .edit.btn-icon:hover {    
+    border:1.5px solid #ffffff;
+    background-color: #04a904;
+    color: white;
+}
+
+.oparation .button-content .delete.btn-icon {
+    border: 1.5px solid #ff0303;
+    color: #ff0303;
+}
+
+.oparation .button-content .delete.btn-icon:hover {    
+    background-color: #a90404;
+    color: white;
+}
+
+
+.oparation .button-content .btn-icon {
+    padding: 5px 10px;
+    border-radius: 6px;
+}
+
+.oparation .button-content .btn-icon i {
+    font-size: 16px;
+}
+
+
+.oparation .text-content {
+    background-color: #d5d57f;
+    height: auto;
+    padding: 15px;
+}
+
+.oparation textarea {
+    width: 100%;
+    min-height: 222px;
+    margin-top: 2px;
+    padding: 7px;
+    text-transform: capitalize;
+    word-spacing: 2px;
+    /* display: none; */
+    resize: none;
+}
+
+/* --- scrollbar style start--- */
+.oparation::-webkit-scrollbar {
+    width: 10px;
+}
+
+.oparation::-webkit-scrollbar-track {
+    background-color: #3f4138;
+
+}
+
+.oparation::-webkit-scrollbar-thumb {
+    background-color: rgb(132, 173, 34);
+}
+
+
+/* --- scrollbar style end--- */
+
+.hidden {
+    display: none;
+}
+
+/* ------------- note style end ----------------- */

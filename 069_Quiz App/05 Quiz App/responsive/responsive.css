@@ -1,0 +1,28 @@
+@media only screen and (min-width: 500px) {
+    .box {
+        width: 510px;
+        padding: 11px 20px 1px 20px;
+        border-radius: 10px;
+    }
+
+    #relod_btn {
+        width: 160px;
+        padding: 15px 0;
+    }
+}
+
+@media only screen and (min-width: 1100px) {
+    .box {
+        margin: 1% auto;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .result_div.display-block {
+        height: 230px;
+    }
+
+    .result-box i {
+        font-size: 3rem;
+    }
+}
