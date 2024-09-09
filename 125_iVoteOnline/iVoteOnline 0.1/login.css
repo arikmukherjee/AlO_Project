@@ -1,0 +1,58 @@
+#container {
+  height: 500px;
+  width: 500px;
+  background-color: aqua;
+  margin: 50px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 20%;
+  /* background: url("img/image1.jpeg");
+  background-size: cover; */
+}
+
+body {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+#login {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+#input1 {
+  height: 47px;
+  width: 372px;
+  text-align: center;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 20px;
+}
+
+#input2 {
+  height: 47px;
+  width: 372px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 20px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+#input3 {
+  height: 33px;
+  width: 133px;
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+  margin-top: 10px;
+  border-radius: 30px;
+}
+
+#logo_ddmc {
+  size: 100px;
+}

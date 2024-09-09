@@ -1,0 +1,157 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html, body {
+    overflow-x: hidden;
+}
+#firstnavbar, #secondnavbar, #container1, #container2 {
+    width: 100%;
+}
+#secondnavbar{
+    height: 90px;
+    background-color: #ffffff;
+    display: flex;
+    color: #012549;
+    border: 2px solid black;
+}
+
+#logo{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+    /* margin-right: 200px; */
+    padding: 5px;
+    margin: 5px;
+    margin-left: 10px;
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRg0MEPLdKpX-NLHL9sG7MZY63b8in1RYoSVjv5fhjhZ_6cdCMFaGFifPotNtjijk_mUAA&usqp=CAU");
+    background-size: cover;
+}
+
+#ovp{
+    display: inline-block;
+    padding: 3px;
+}
+
+#tabs {
+    font-size: 20px;
+    margin-left: 400px;
+    position: relative;
+    top: 30px;
+}
+
+#tabs a{
+    padding: 15px;
+    text-decoration: none;
+}
+
+#tabs a:hover{
+    color: rgb(104, 7, 7);
+}
+
+#firstnavbar{
+    background-color: #012549;
+    color: white;
+    position: sticky;
+}
+
+#mail , #phone , #location , #socialmedia{
+    display: inline-block;
+    padding: 10px;
+}
+
+#socialmedia{
+    position: relative;
+    left: 600px;
+}
+#socialmedia i{
+    padding-right: 10px;
+}
+
+#aboutus{
+    height: 500px;
+    width: 500px;
+    background:url("/ddmc.jpeg");
+    background-size: cover;
+    display: inline-block;
+}
+
+#grouppic{
+    height: 500px;
+    width: 550px;
+    background-color: aqua;
+    display: inline-block;
+    margin-left: 50px;
+    background: url("/clg_group.jpg");
+    background-size: cover;
+    border: 2px solid hidden;
+    border-radius: 10px;
+}
+
+#container1{
+    margin-left: 11%;
+    display: flex;
+}
+
+#aboutHeading {
+    text-align: center;
+}
+
+#aboutParagraph {
+    text-align: center;
+}
+
+#container2{
+    height: 500px;
+    background-color: aqua;
+}
+
+#c2heading{
+    text-align: center;
+}
+
+#candidate1{
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    display: inline-block;
+    border-radius: 50%;
+    padding: 0px;
+    margin-left: 30px;
+    background: url("/p1.jpg");
+    background-size: cover;
+}
+
+#candidate2{
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    display: inline-block;
+    border-radius: 50%;
+    padding: 0px;
+    margin-left: 30px;
+    background: url("/p2.jpg");
+    background-size: cover;
+}
+
+#candidate3{
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    display: inline-block;
+    border-radius: 50%;
+    padding: 0px;
+    margin-left: 30px;
+    background: url("/p3.jpg");
+    background-size: cover;
+}
+
+.candidateContainer {
+    position: relative;
+    top: 100px;
+    left: 150px;
+}

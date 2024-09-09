@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /*THIS IS NAV BAR*/
+  .navbar {
+    height: 101px;
+    background-color: #07e3f7;
+    display: flex;
+    width: 100%;
+  }
+  img {
+    height: 82px;
+    width: 78px;
+    margin-left: 25px;
+    margin-top: 8px;
+  }
+  #link {
+    margin-left: 15px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    position: relative;
+    top: 30px;
+    color: white;
+  }
+  
+  .nav {
+    margin-right: 50px;
+    text-decoration: none;
+  }
+  
+  .pname {
+    width: 530px;
+    position: relative;
+    top: 8px;
+    left: -32px;
+    height: 33px;
+    bottom: 50px;
+  }
+  
+  
+  /*These are divs*/
+  #voter {
+      height: 300px;
+      width: 300px;
+      background-color: aqua;
+      margin: 65px;
+      display: inline-block;
+      position: relative;
+      left: 35px;
+      border-width: 2px;
+      border-color: black;
+      border-radius: 10px;
+  }
+  #voter:hover{
+    background-color: #90e0ef;
+  }
+  
+  #candidate {
+      height: 300px;
+      width: 300px;
+      background-color: aqua;
+      margin: 65px;
+      display: inline-block;
+      position: relative;
+      left: 35px;
+      border-width: 2px;
+      border-color: black;
+      border-radius: 10px;
+  }
+  #candidate:hover{
+    background-color: #90e0ef;
+  }
+
+  #admin {
+      height: 300px;
+      width: 300px;
+      background-color: aqua;
+      margin: 65px;
+      display: inline-block;
+      position: relative;
+      left: 35px;
+      border-width: 2px;
+      border-color: black;
+      border-radius: 10px;
+  }
+  #admin:hover{
+    background-color: #90e0ef;
+  }
+  
+  .join{
+      font-size: 25px;
+      text-align: center;
+      position: relative;
+      top: 30%;
+  }
+  
+  .entry{
+      height: 60px;
+      width: 100px;
+      text-align: center;
+      position: relative;
+      top: 100px;
+      left: 100px;
+      background-color: rgb(99, 99, 210);
+      border-radius: 20%;
+      cursor: pointer;
+      box-shadow: 5px 5px;
+      animation: mybutton 1s linear 0.25s 0s ease-in normal;
+  }
+
+ .entry:hover{
+    background-color: #fff;
+    height: 65px;
+    width: 105px;
+  }
+
+  body {
+    background-color: #caf0f8;
+  }
+
+ #firstfooter {
+  height: 450px;
+  width: 100%;
+  background-color: #0077b6;
+  display: flex;
+ }
+
+.foot{
+  height: 350px;
+  width: 280px;
+  background-color: url("/logo/OVP2.png");
+  display: inline-block;
+  margin-left: 30px;
+  position: relative;
+  top: 32px;
+  border: 2px solid hidden;
+ }
+
+ .footerbtn{
+   height: 50px;
+   width: 220px;
+   position: relative;
+   top: 15px;
+   left: 10%;
+   margin: 10px;
+   border-width: 2px;
+   border-style: solid;
+   border-color: black;
+   background: transparent;
+ }
+
+ #selectPlace{
+  height: 25px;
+  width: 200px;
+  border: 2px solid black;
+ }
+
+
+ #policy{
+  position: relative;
+  top: -20px;
+  left: 9px;
+  list-style-type: none;
+  margin-top: 50px;
+  text-align: center;
+ }
+ 
+ .policyLink{
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+
+ #f4link{
+  position: relative;
+  left: 50px;
+ }
+
+ #f4ptag{
+  position: relative;
+  left: 30px;
+  color: white;
+ }
+
+ #f4h1tag{
+  font-size: 25px;
+  text-align: center;
+ }
+
+ /* #copyright{
+  width: 100%;
+ } */
+
+ #f1{
+  position: relative;
+  top: 9%;
+ }
+ #f4{
+  position: relative;
+  top: 45px;
+ }
+
+ #lastfooter {
+  height: 50px;
+  background-color: #0077b6;
+  text-align: center;
+ }
+ 
